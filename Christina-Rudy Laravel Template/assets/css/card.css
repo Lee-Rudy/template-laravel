@@ -1,78 +1,81 @@
-body{
+/* body{
     background-color: rgb(22, 22, 34);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 .titre
 {
     background-color: none;
     text-align: center;
     color: white;
+    position: relative;
+    top: 450px;
 }
 
-nav
+.nav-card
 {
     background-color: none;
     width: 98%;
     height: 650px;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     position: relative;
-    top: 20px;
+    top: 500px;
+    right: -1%;
     display: flex;
 }
 
-nav .filtre
+.nav-card .filtre
 {
     background-color: black;
-    width: 300px;
+    width: 250px;
     height: 650px;
     border-radius: 3%;
 }
 
-nav .box-container{
+.nav-card .box-container{
     display: grid;
     grid-template-columns: repeat(3, 324px);
     gap:15px;
     margin-left: 20px;
 }
 
-nav .box-container .box{
+.nav-card .box-container .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 10px;
-    background: rgba(116, 102, 194, 0.165);
+    background-color: rgb(22, 22, 34);
     padding:30px 20px;
-    border: 2px solid #4a1d55;
+    border: 2px solid #a446bb;
 }
 
 
-nav .box-container .box img{
+.nav-card .box-container .box img{
     height: 155px;
     border-radius: 10px;
 }
 
-nav .box-container .box h3{
+.nav-card .box-container .box h3{
     color:#ffffff;
     font-size: 22px;
     padding:5px 2px;
 }
 
-nav .box-container .box h5{
+.nav-card .box-container .box h5{
     color:rgb(240, 146, 70);
     font-size: 15px;
-    padding:5px 2px;
+    padding:5px 5px;
     float: right;
-    margin-top: -60px;
+    margin-top: -35px;
 }
 
-nav .box-container .box p{
+.nav-card .box-container .box p{
     color:#777;
     font-size: 15px;
     line-height: 1.8;
     margin-top: -10px;
 }
 
-nav .box-container .box .btn{
+.nav-card .box-container .box .btn{
     margin-top: 10px;
     background-color: transparent;
     border: 1px solid antiquewhite;
@@ -85,14 +88,14 @@ nav .box-container .box .btn{
     outline: none;
 }
 
-nav .box-container .box .btn:hover{
+.nav-card .box-container .box .btn:hover{
     background-color: rgb(240, 146, 70);
     border-color: rgb(240, 146, 70);
     color: #333;
     transition: all 0.3s ease 0s;
 }
 
-nav .box-container .box:hover{
+.nav-card .box-container .box:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
