@@ -23,7 +23,7 @@ footer {
 
 .container,
 .footer-text {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
 }
 
 .container {
@@ -47,7 +47,7 @@ footer {
 
 .container .footer-text h3,
 .container .footer-text p {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -59,7 +59,7 @@ footer {
     font-size: 25px;
     border: none;
     padding: 0px 10px;
-    background-color:  rgb(41, 41, 41);
+    background-color:  rgb(0, 0, 0);
     color:  rgb(41, 41, 41);
     width: 12%;
     height: 12%;
@@ -70,7 +70,7 @@ footer {
 .fa
 {
     width: 20%;
-    padding: 0px;
+    padding: 2px;
 
 }
 
