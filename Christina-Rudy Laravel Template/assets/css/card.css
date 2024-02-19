@@ -9,7 +9,7 @@
     text-align: center;
     color: white;
     position: relative;
-    top: 450px;
+    top: 550px;
 }
 
 .nav-card
@@ -20,7 +20,7 @@
     margin: 0;
     padding: 0;
     position: relative;
-    top: 500px;
+    top: 600px;
     right: -1%;
     display: flex;
 }
@@ -45,7 +45,7 @@
     border-radius: 10px;
     background-color: rgb(22, 22, 34);
     padding:30px 20px;
-    border: 2px solid #a446bb;
+    border: 1px solid #a446bb;
 }
 
 
